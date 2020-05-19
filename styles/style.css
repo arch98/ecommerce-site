@@ -6,7 +6,38 @@ body{
     font-family: "Lato",sans-serif;
 }
 
+.hero {
+  background: url("../images/hero-bcg.jpeg")center/cover no-repeat;
+  padding:10%;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+}
 
+.banner{
+	text-align: center;
+	background: rgba(255, 255, 255, 0.8);
+	display: inline-block;
+	padding: 2rem;
+}
+
+.banner-text{
+	margin-top: 2rem;
+	margin-left: 1rem;
+	margin-bottom: 2rem;
+	font-family: sans-serif;
+	font-weight: bold;
+	letter-spacing: 0.1rem;
+}
+
+.banner-btn{
+     background-color:#FFA652;
+     border:1px solid #FFA652;
+     margin-bottom: 2rem;
+     padding:1rem;
+     font-size: 1rem;
+     letter-spacing: 0.1rem;
+}
 .navbar{
 	background: rgb(231, 226, 221);
 	padding:20px;
@@ -22,33 +53,3 @@ body{
 }
 
 
-.hero {
-  min-height: calc(100vh - 60px);
-  background: url("./images/hero-bcg.jpeg") center/cover no-repeat;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.banner {
-  text-align: center;
-  background: rgba(255, 255, 255, 0.8);
-  display: inline-block;
-  padding: 2rem;
-}
-.banner-title {
-  font-size: 3.4rem;
-  text-transform: uppercase;
-  letter-spacing: var(--mainSpacing);
-  margin-bottom: 3rem;
-}
-.banner-btn {
-  padding: 1rem 3rem;
-  text-transform: uppercase;
-  letter-spacing: var(--mainSpacing);
-  font-size: 1rem;
-  background: var(--primaryColor);
-  color: var(--mainBlack);
-  border: 1px solid var(--primaryColor);
-  transition: var(--mainTransition);
-  cursor: pointer;
-}
