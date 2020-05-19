@@ -8,7 +8,7 @@ body{
 
 .hero {
   background: url("../images/hero-bcg.jpeg")center/cover no-repeat;
-  padding:10%;
+  padding:15%;
   display: flex;
   align-items: center; 
   justify-content: center;
@@ -52,4 +52,47 @@ body{
 	
 }
 
+#imp{
+	text-align: center;
+	padding: 3rem;
+	letter-spacing: 0.1rem;
+	font-weight: bold;
+	font-size: 2.5rem;
+}
 
+.contents{
+	padding: 1rem;
+	text-align: center;
+	letter-spacing: 0.1rem;
+}
+
+h6{
+	color:#FFA652;
+}
+
+.img-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.bag-btn {
+  position: absolute;
+  top: 70%;
+  right: 0;
+  background:#FFA652;
+  border: none;
+  text-transform: uppercase;
+  padding: 0.5rem 0.75rem;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  transition: 0.3s linear;
+  transform: translateX(101%);
+}
+
+.bag-btn:hover {
+  color: white;
+}
+
+.img-container:hover .bag-btn {
+  transform: translateX(0);
+}
